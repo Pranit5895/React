@@ -1,13 +1,17 @@
 const Navbar = () => {
-    return (  
-        <nav className="Navbar">
-            <h1> Sample React Application</h1>
-            <div className="links">
-                <a href="/">Home</a>
-                <a href="/create">New Website</a>
-            </div>
-        </nav>
+    return (
+      <nav className="navbar">
+        <h1>Sample React Application</h1>
+        <div className="links">
+          <a href="/">Home</a>
+          <a href="/create" style={{ 
+            color: 'white', 
+            backgroundColor: '#f1356d',
+            borderRadius: '8px' 
+          }}>New Blog</a>
+        </div>
+      </nav>
     );
-}
- 
-export default Navbar;
+  }
+   
+  export default Navbar;
